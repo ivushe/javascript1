@@ -14,3 +14,21 @@
 
 // document.body.innerHTML += "<p>" + adresa.ulice + "</p>"
 
+const pizzeria = {
+    jmeno: "U Zofie",
+    hodnoceni: 4.3,
+    adresa: {
+        ulice: "Belohorska",
+        cisloPopisne: 23,
+        PSC: "160 00",
+        mesto: "Praha",
+        test: {
+            polozka1: "Ja jsem polozka1",
+        },
+    },
+    nejPizza: "Hawaii",
+}
+
+document.body.innerHTML += "<p>" + pizzeria.jmeno + "</p>"
+document.body.innerHTML += "<p>" + pizzeria.hodnoceni + "</p>"
+document.body.innerHTML += "<p>" + pizzeria.adresa.test.polozka1 + "</p>"
