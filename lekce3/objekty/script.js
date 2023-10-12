@@ -15,9 +15,9 @@
 // document.body.innerHTML += "<p>" + adresa.ulice + "</p>"
 
 const pizzeria = {
-    jmeno: "U Zofie",
-    hodnoceni: 4.3,
-    adresa: {
+    "jmeno uzivatele": "U Zofie",
+    hodnoceni_uzivatele: 4.3,
+    "adresa-uzivatele": {
         ulice: "Belohorska",
         cisloPopisne: 23,
         PSC: "160 00",
@@ -29,6 +29,6 @@ const pizzeria = {
     nejPizza: "Hawaii",
 }
 
-document.body.innerHTML += "<p>" + pizzeria.jmeno + "</p>"
-document.body.innerHTML += "<p>" + pizzeria.hodnoceni + "</p>"
-document.body.innerHTML += "<p>" + pizzeria.adresa.test.polozka1 + "</p>"
+document.body.innerHTML += "<p>" + pizzeria["jmeno uzivatele"] + "</p>"
+document.body.innerHTML += "<p>" + pizzeria.hodnoceni_uzivatele + "</p>"
+document.body.innerHTML += "<p>" + pizzeria["adresa-uzivatele"].PSC + "</p>"
