@@ -1,0 +1,7 @@
+nastavení gitu
+PS C:\Users\Iva\source\repos\javascript> git config --global user.name "Iva Prokopova"
+PS C:\Users\Iva\source\repos\javascript> git config --global user.email iva.prokopov@gmail.com
+PS C:\Users\Iva\source\repos\javascript> git config --global --list
+ git add . - vsechny zmeny se pripravi na zapis
+ git commit -m "pridan index.html soubor"
+ 
