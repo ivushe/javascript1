@@ -138,33 +138,26 @@
 const userInput = prompt("Zadejte pocet kusu tricek")
 pocetTricek = Number(userInput)
 
-if (Number.isInteger(pocetTricek)) 
-{ 
+if (Number.isInteger(pocetTricek)) {
 
-if (pocetTricek<50)
-{
-    document.body.innerHTML = `cena: ` + pocetTricek*300 + ` CZK `
-}
-else if (pocetTricek>=50 && pocetTricek<=200)
-{
-    document.body.innerHTML = `cena: ` + pocetTricek*250 + ` CZK `
-}
-else if (pocetTricek>200 && pocetTricek<=500)
-{
-    document.body.innerHTML = `cena: ` + pocetTricek*200 + ` CZK `
-}
-else if (pocetTricek>500 && pocetTricek<=1000)
-{
-    document.body.innerHTML = `cena: ` + pocetTricek*150 + ` CZK `
-}
-else if (pocetTricek>1000)
-{
-    document.body.innerHTML = `cena: ` + pocetTricek*120 + ` CZK `
-}
+    if (pocetTricek < 50) {
+        document.body.innerHTML = `cena: ` + pocetTricek * 300 + ` CZK `
+    }
+    else if (pocetTricek >= 50 && pocetTricek <= 200) {
+        document.body.innerHTML = `cena: ` + pocetTricek * 250 + ` CZK `
+    }
+    else if (pocetTricek > 200 && pocetTricek <= 500) {
+        document.body.innerHTML = `cena: ` + pocetTricek * 200 + ` CZK `
+    }
+    else if (pocetTricek > 500 && pocetTricek <= 1000) {
+        document.body.innerHTML = `cena: ` + pocetTricek * 150 + ` CZK `
+    }
+    else if (pocetTricek > 1000) {
+        document.body.innerHTML = `cena: ` + pocetTricek * 120 + ` CZK `
+    }
 }
 
-else 
-{
+else {
     alert("Zadejte cele cislo.");
 }
 
