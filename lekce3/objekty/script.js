@@ -66,6 +66,9 @@ const apartment = {
   document.body.innerHTML += "<p>Vymera bytu: "+ apartment.area.floorage + apartment.area.units +"</p>"
   document.body.innerHTML += "<p>" + mesto + "</p>"
   document.body.innerHTML += "<p>" + mestCast + "</p>"
+  apartment.status = "taken"
+  document.body.innerHTML += "<p>Stav inzeratu: "+ apartment.status +"</p>"
+
 
   //test
   
