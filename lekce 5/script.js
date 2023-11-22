@@ -14,3 +14,16 @@ obrazek.src = "https://www.peliskydog.cz/user/articles/images/jak-vybrat-stene.j
 
 obrazek.alt = "stene"
 //doplnit style.css
+
+const odstavec = document.querySelector("#odstavec2")
+const pizza = {
+    jmeno: "Hawaii",
+    cena: 150,
+    ingredience: "smetana, sunka, ananas",
+}
+
+odstavec.innerHTML = `
+    <h2>${pizza.jmeno}</h2>
+    <p>Cena: ${pizza.cena}</p>
+`
+
